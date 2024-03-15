@@ -21,15 +21,6 @@ const Summary = () => {
   );
   const sellMesagge = `${productos} \n Precio Total:  $${totalPrice}.`;
 
-  useEffect(() => {
-    if (searchParams.get("success")) {
-      toast.success("Pago Confirmado");
-      removeAll();
-    }
-    if (searchParams.get("canceled")) {
-      toast.error("Algo salio mal.");
-    }
-  }, [searchParams, removeAll]);
   return (
     <div className="mt-16 rounded-lg bg-gray-50 px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8">
       <h2 className="text-lg font-medium text-gray-900">Resumen del pedido</h2>

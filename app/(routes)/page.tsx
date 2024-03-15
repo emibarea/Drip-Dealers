@@ -49,7 +49,7 @@ const HomePage = async () => {
             width={500}
             height={300}
             alt="logo"
-            src="https://media.discordapp.net/attachments/1087185625658167420/1153780805487820871/DR_p_2.png"
+            src="/drlogo.png"
           />
           <SocialMedia />
         </div>

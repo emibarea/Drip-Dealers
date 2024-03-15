@@ -16,12 +16,7 @@ const Navbar = async () => {
         <div className="relative flex justify-between px-4 sm:px-6 lg:px-8 h-[80px] items-center">
           <div className="hidden sm:flex">
             <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-              <Image
-                src="https://media.discordapp.net/attachments/1087185625658167420/1156668262508150894/logodrip.png?ex=6515cec3&is=65147d43&hm=ff0258fe69977c965a548f4a86ae6c377d8df373cb45c32a07269bb297ed47f7&="
-                alt="logo"
-                width={170}
-                height={50}
-              />
+              <Image src="/logodrip.png" alt="logo" width={170} height={50} />
             </Link>
             <MainNav data={categories} />
           </div>
